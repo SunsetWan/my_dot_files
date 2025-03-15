@@ -15,3 +15,10 @@ nnoremap <silent> <C-f> :Files<CR>
 " Finding in Files
 nnoremap <silent> <Leader>f :Rg<CR>
 
+set number
+set relativenumber
+
+set hlsearch
+set incsearch
+" Disable highlight
+nnoremap <esc><esc> :noh<return><esc>
