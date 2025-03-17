@@ -88,3 +88,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 call plug#end()
 
 set grepprg=rg\ --vimgrep\ --smart-case\ --follow
+
+" To make Vim to paste copied text from the external program with just p
+set clipboard=unnamed
