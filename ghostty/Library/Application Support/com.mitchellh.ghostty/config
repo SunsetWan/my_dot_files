@@ -72,7 +72,8 @@ foreground = #cbccc6
 
 selection-invert-fg-bg = true
 
-cursor-style = "bar"
+cursor-style = "block"
+shell-integration-features = no-cursor
 cursor-style-blink = true
 scrollback-limit = 100000
 window-padding-x = 20
